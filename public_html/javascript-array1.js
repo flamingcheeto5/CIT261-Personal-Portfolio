@@ -21,7 +21,7 @@ function repo2 (){
 function countEvens (list) {
 		var num =0; 
 		for (var i=0; i<list.length; i++) {
-			if (list[i]%2==0) {
+			if (list[i]%2===0) {
 				num += 1;}
 		}
 	return num;
